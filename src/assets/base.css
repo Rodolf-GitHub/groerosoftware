@@ -1,5 +1,9 @@
 @import 'tailwindcss';
 
+html {
+  overflow-x: hidden;
+}
+
 @theme {
   /* Navy — fondos oscuros y textos principales */
   --color-navy-950: #00101f;
@@ -62,6 +66,40 @@
 [data-scroll='blur-in'] {
   transform: translateY(20px);
   filter: blur(6px);
+}
+
+/* Mobile: reduce distances and speed up */
+@media (max-width: 767px) {
+  [data-scroll] {
+    transition:
+      opacity 0.5s cubic-bezier(0.16, 1, 0.3, 1),
+      transform 0.5s cubic-bezier(0.16, 1, 0.3, 1),
+      filter 0.5s ease-out;
+  }
+
+  [data-scroll='fade-up'] {
+    transform: translateY(24px);
+  }
+
+  [data-scroll='slide-left'] {
+    transform: translateX(-24px);
+  }
+
+  [data-scroll='slide-right'] {
+    transform: translateX(24px);
+  }
+
+  [data-scroll='blur-in'] {
+    transform: translateY(12px);
+    filter: blur(4px);
+  }
+
+  [data-stagger] {
+    transform: translateY(16px);
+    transition:
+      opacity 0.4s cubic-bezier(0.16, 1, 0.3, 1),
+      transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  }
 }
 
 [data-scroll].scroll-visible {

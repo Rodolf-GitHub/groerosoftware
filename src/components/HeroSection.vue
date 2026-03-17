@@ -1,5 +1,5 @@
 <template>
-  <section data-scroll="fade-up" class="relative overflow-hidden">
+  <section class="relative overflow-hidden">
     <!-- Fondo con degradados azules claros -->
     <div class="absolute inset-0 bg-gradient-to-br from-white via-blue-50/60 to-cyan-50/40"></div>
     <div

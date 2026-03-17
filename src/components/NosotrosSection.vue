@@ -1,7 +1,7 @@
 <template>
   <section
     id="nosotros"
-    data-scroll="slide-right"
+    data-scroll="fade-up"
     class="relative bg-gradient-to-br from-cyan-50/40 via-blue-50/30 to-slate-50 py-20 sm:py-28"
   >
     <div class="mx-auto max-w-6xl px-6">

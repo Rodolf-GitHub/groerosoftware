@@ -6,6 +6,8 @@ export function useScrollAnimation() {
   onMounted(() => {
     const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
 
+    const isMobile = window.innerWidth < 768
+
     observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -22,7 +24,7 @@ export function useScrollAnimation() {
           }
         })
       },
-      { threshold: 0.15, rootMargin: '0px 0px -40px 0px' },
+      { threshold: isMobile ? 0.05 : 0.15, rootMargin: isMobile ? '0px' : '0px 0px -40px 0px' },
     )
 
     if (!prefersReduced) {
