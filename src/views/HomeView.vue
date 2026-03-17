@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import HeroSection from '@/components/HeroSection.vue'
 import ServiciosSection from '@/components/ServiciosSection.vue'
+import SolucionesSection from '@/components/SolucionesSection.vue'
 import NosotrosSection from '@/components/NosotrosSection.vue'
 import ProyectosSection from '@/components/ProyectosSection.vue'
 import TechStackSection from '@/components/TechStackSection.vue'
@@ -15,6 +16,7 @@ useScrollAnimation()
   <div>
     <HeroSection />
     <ServiciosSection />
+    <SolucionesSection />
     <NosotrosSection />
     <ProyectosSection />
     <TechStackSection />

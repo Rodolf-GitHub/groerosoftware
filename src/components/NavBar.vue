@@ -49,6 +49,13 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
         </li>
         <li>
           <a
+            href="#soluciones"
+            class="relative py-1 transition-colors duration-300 hover:text-blue-600 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-gradient-to-r after:from-cyan-400 after:to-blue-500 after:transition-all after:duration-300 hover:after:w-full"
+            >Soluciones</a
+          >
+        </li>
+        <li>
+          <a
             href="#nosotros"
             class="relative py-1 transition-colors duration-300 hover:text-blue-600 after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-0 after:bg-gradient-to-r after:from-cyan-400 after:to-blue-500 after:transition-all after:duration-300 hover:after:w-full"
             >Nosotros</a
@@ -121,6 +128,14 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
               class="block py-3 px-3 rounded-lg transition-all duration-200 hover:text-blue-600 hover:bg-blue-50/60"
               @click="isOpen = false"
               >Servicios</a
+            >
+          </li>
+          <li>
+            <a
+              href="#soluciones"
+              class="block py-3 px-3 rounded-lg transition-all duration-200 hover:text-blue-600 hover:bg-blue-50/60"
+              @click="isOpen = false"
+              >Soluciones</a
             >
           </li>
           <li>
