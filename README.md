@@ -1,33 +1,60 @@
-# .
+# Groero Software
 
-This template should help get you started developing with Vue 3 in Vite.
+Sitio web oficial de **Groero Software**, empresa de desarrollo de software fundada por [Rodolfo Groero](https://rodolfogroero.com) — Ingeniero Informático y Desarrollador Full Stack Senior con sede en Montevideo, Uruguay.
 
-## Recommended IDE Setup
+## Sobre la empresa
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Groero Software se especializa en:
 
-## Recommended Browser Setup
+- **Desarrollo web a medida** — Sitios y aplicaciones web adaptados a las necesidades específicas de cada cliente.
+- **Software personalizado** — Sistemas completos desde la captura de requerimientos hasta el despliegue en producción.
+- **E-commerce** — Tiendas online con experiencia de compra fluida e integración de pasarelas de pago (Stripe).
+- **Arquitectura escalable** — Diseño de frontend y backend con autenticación, autorización, roles y permisos.
+- **Optimización SEO** — Mejora de rendimiento y posicionamiento en buscadores.
+- **Despliegue y mantenimiento** — Configuración de servidores Linux VPS, dominios y entornos productivos.
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+## Tech Stack del sitio
 
-## Type Support for `.vue` Imports in TS
+- [Vue 3](https://vuejs.org/) + TypeScript
+- [Vite](https://vite.dev/)
+- [Vue Router](https://router.vuejs.org/)
+- [Pinia](https://pinia.vuejs.org/)
+- [Tailwind CSS 4](https://tailwindcss.com/)
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
+## Configuración del proyecto
 
 ```sh
 npm install
 ```
+
+### Servidor de desarrollo
+
+```sh
+npm run dev
+```
+
+### Compilar para producción
+
+```sh
+npm run build
+```
+
+### Previsualizar build de producción
+
+```sh
+npm run preview
+```
+
+## Contacto
+
+- **Web:** [rodolfogroero.com](https://rodolfogroero.com)
+- **Email:** rodolfogroero2@gmail.com
+- **GitHub:** [github.com/Rodolf-GitHub](https://github.com/Rodolf-GitHub)
+- **WhatsApp:** [+598 91854 199](https://wa.me/59891854199)
+
+---
+
+© Groero Software
 
 ### Compile and Hot-Reload for Development
 
