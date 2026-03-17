@@ -24,8 +24,8 @@
       </h1>
 
       <p class="mt-6 max-w-2xl mx-auto text-lg sm:text-xl text-slate-600 leading-relaxed">
-        Desarrollo web, aplicaciones a medida, e-commerce y soluciones digitales. De la idea al
-        producto en producción.
+        Desarrollo web, aplicaciones a medida y soluciones digitales. De la idea al producto en
+        producción.
       </p>
 
       <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
