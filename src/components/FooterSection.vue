@@ -4,7 +4,14 @@
       <div class="flex flex-col md:flex-row items-center justify-between gap-8">
         <!-- Logo + nombre -->
         <div class="flex items-center gap-3">
-          <img src="/groerosoftwareminilogo.png" alt="Groero Software" class="h-9" />
+          <img
+            src="/groerosoftwareminilogo.png"
+            alt="Groero Software"
+            class="h-9"
+            width="36"
+            height="36"
+            loading="lazy"
+          />
           <div>
             <p class="font-bold text-navy-900">Groero Software</p>
             <p class="text-xs text-slate-500">Desarrollo web y software a medida</p>
@@ -12,12 +19,14 @@
         </div>
 
         <!-- Links -->
-        <ul class="flex flex-wrap items-center justify-center gap-6 text-sm text-slate-600">
-          <li><a href="#servicios" class="transition hover:text-blue-600">Servicios</a></li>
-          <li><a href="#nosotros" class="transition hover:text-blue-600">Nosotros</a></li>
-          <li><a href="#proyectos" class="transition hover:text-blue-600">Proyectos</a></li>
-          <li><a href="#contacto" class="transition hover:text-blue-600">Contacto</a></li>
-        </ul>
+        <nav aria-label="Enlaces del pie de página">
+          <ul class="flex flex-wrap items-center justify-center gap-6 text-sm text-slate-600">
+            <li><a href="#servicios" class="transition hover:text-blue-600">Servicios</a></li>
+            <li><a href="#nosotros" class="transition hover:text-blue-600">Nosotros</a></li>
+            <li><a href="#proyectos" class="transition hover:text-blue-600">Proyectos</a></li>
+            <li><a href="#contacto" class="transition hover:text-blue-600">Contacto</a></li>
+          </ul>
+        </nav>
 
         <!-- Social -->
         <div class="flex items-center gap-4">

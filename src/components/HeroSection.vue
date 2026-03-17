@@ -12,8 +12,9 @@
     <div class="relative mx-auto max-w-6xl px-6 pt-32 pb-24 sm:pt-40 sm:pb-36 text-center">
       <img
         src="/groerosoftwarelogo.png"
-        alt="Groero Software"
-        class="mx-auto h-28 sm:h-36 mb-10 drop-shadow-lg"
+        alt="Groero Software — Desarrollo web y software a medida en Uruguay"
+        class="mx-auto h-28 sm:h-36 w-auto mb-10 drop-shadow-lg"
+        loading="eager"
       />
 
       <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight">

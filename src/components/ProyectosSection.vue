@@ -55,7 +55,14 @@ const proyectos = [
           <div
             class="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-white border border-slate-200 overflow-hidden"
           >
-            <img :src="p.favicon" :alt="p.nombre" class="h-8 w-8 object-contain" />
+            <img
+              :src="p.favicon"
+              :alt="p.nombre"
+              class="h-8 w-8 object-contain"
+              width="32"
+              height="32"
+              loading="lazy"
+            />
           </div>
 
           <h3 class="text-lg font-semibold text-navy-900 mb-2 group-hover:text-blue-600 transition">

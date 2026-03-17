@@ -28,6 +28,9 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
           src="/groerosoftwareminilogo.png"
           alt="Groero Software"
           class="h-9 transition-transform duration-300 group-hover:scale-105"
+          width="36"
+          height="36"
+          loading="eager"
         />
         <span
           class="text-lg font-bold bg-gradient-to-r from-navy-900 to-blue-700 bg-clip-text text-transparent"
