@@ -1,5 +1,8 @@
 <template>
-  <footer class="border-t border-blue-100/60 bg-gradient-to-b from-white to-blue-50/40 py-12">
+  <footer
+    data-scroll="blur-in"
+    class="border-t border-blue-100/60 bg-gradient-to-b from-white to-blue-50/40 py-12"
+  >
     <div class="mx-auto max-w-6xl px-6">
       <div class="flex flex-col md:flex-row items-center justify-between gap-8">
         <!-- Logo + nombre -->

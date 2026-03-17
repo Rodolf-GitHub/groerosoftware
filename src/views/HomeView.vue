@@ -6,6 +6,9 @@ import ProyectosSection from '@/components/ProyectosSection.vue'
 import TechStackSection from '@/components/TechStackSection.vue'
 import ContactoCTA from '@/components/ContactoCTA.vue'
 import FooterSection from '@/components/FooterSection.vue'
+import { useScrollAnimation } from '@/composables/useScrollAnimation'
+
+useScrollAnimation()
 </script>
 
 <template>

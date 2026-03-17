@@ -68,6 +68,7 @@ const tecnologias = [
 <template>
   <section
     id="tecnologias"
+    data-scroll="scale-in"
     class="relative bg-gradient-to-br from-blue-50/40 via-cyan-50/30 to-slate-50 py-20 sm:py-28"
   >
     <div class="mx-auto max-w-6xl px-6">
@@ -88,6 +89,7 @@ const tecnologias = [
           :href="t.url"
           target="_blank"
           rel="noopener noreferrer"
+          data-stagger
           class="group flex flex-col items-center gap-3 rounded-xl border border-blue-100/80 bg-white/70 backdrop-blur-sm p-5 transition-all duration-300 hover:border-blue-300/80 hover:shadow-md hover:shadow-blue-400/10 hover:-translate-y-1"
         >
           <img :src="t.icono" :alt="t.nombre" class="h-10 w-10" />
