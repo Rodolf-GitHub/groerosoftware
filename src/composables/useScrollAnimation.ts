@@ -4,9 +4,10 @@ export function useScrollAnimation() {
   let observer: IntersectionObserver | null = null
 
   onMounted(() => {
-    const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
-
-    const isMobile = window.innerWidth < 768
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      document.querySelectorAll('[data-scroll]').forEach((el) => el.classList.add('scroll-visible'))
+      return
+    }
 
     observer = new IntersectionObserver(
       (entries) => {
@@ -16,7 +17,7 @@ export function useScrollAnimation() {
             el.classList.add('scroll-visible')
 
             el.querySelectorAll('[data-stagger]').forEach((child, i) => {
-              ;(child as HTMLElement).style.transitionDelay = `${i * 0.08}s`
+              ;(child as HTMLElement).style.transitionDelay = `${i * 0.06}s`
               child.classList.add('scroll-visible')
             })
 
@@ -24,14 +25,10 @@ export function useScrollAnimation() {
           }
         })
       },
-      { threshold: isMobile ? 0.05 : 0.15, rootMargin: isMobile ? '0px' : '0px 0px -40px 0px' },
+      { threshold: 0.08, rootMargin: '0px 0px -30px 0px' },
     )
 
-    if (!prefersReduced) {
-      document.querySelectorAll('[data-scroll]').forEach((el) => observer!.observe(el))
-    } else {
-      document.querySelectorAll('[data-scroll]').forEach((el) => el.classList.add('scroll-visible'))
-    }
+    document.querySelectorAll('[data-scroll]').forEach((el) => observer!.observe(el))
   })
 
   onUnmounted(() => {

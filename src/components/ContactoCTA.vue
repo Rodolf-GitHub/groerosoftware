@@ -1,6 +1,7 @@
 <template>
   <section
     id="contacto"
+    data-scroll
     class="relative bg-gradient-to-b from-blue-50/30 via-white to-blue-50/40 py-20 sm:py-28"
   >
     <div class="mx-auto max-w-4xl px-6">

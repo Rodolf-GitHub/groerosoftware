@@ -30,6 +30,7 @@ const proyectos = [
 <template>
   <section
     id="proyectos"
+    data-scroll
     class="relative bg-gradient-to-b from-white via-blue-50/40 to-cyan-50/30 py-20 sm:py-28"
   >
     <div class="mx-auto max-w-6xl px-6">
@@ -47,6 +48,7 @@ const proyectos = [
         <a
           v-for="(p, i) in proyectos"
           :key="i"
+          data-stagger
           :href="p.url"
           target="_blank"
           rel="noopener noreferrer"

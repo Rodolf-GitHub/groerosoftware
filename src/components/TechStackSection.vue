@@ -68,6 +68,7 @@ const tecnologias = [
 <template>
   <section
     id="tecnologias"
+    data-scroll
     class="relative bg-gradient-to-br from-blue-50/40 via-cyan-50/30 to-slate-50 py-20 sm:py-28"
   >
     <div class="mx-auto max-w-6xl px-6">
@@ -85,6 +86,7 @@ const tecnologias = [
         <a
           v-for="(t, i) in tecnologias"
           :key="i"
+          data-stagger
           :href="t.url"
           target="_blank"
           rel="noopener noreferrer"
