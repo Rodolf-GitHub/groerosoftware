@@ -1,5 +1,5 @@
 <template>
-  <footer class="border-t border-slate-200 bg-white py-12">
+  <footer class="border-t border-blue-100/60 bg-gradient-to-b from-white to-blue-50/40 py-12">
     <div class="mx-auto max-w-6xl px-6">
       <div class="flex flex-col md:flex-row items-center justify-between gap-8">
         <!-- Logo + nombre -->
@@ -71,7 +71,7 @@
         </div>
       </div>
 
-      <div class="mt-8 pt-6 border-t border-slate-100 text-center text-xs text-slate-400">
+      <div class="mt-8 pt-6 border-t border-blue-100/40 text-center text-xs text-slate-400">
         © 2026 Groero Software. Todos los derechos reservados.
       </div>
     </div>

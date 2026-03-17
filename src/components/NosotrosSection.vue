@@ -1,5 +1,8 @@
 <template>
-  <section id="nosotros" class="bg-slate-50 py-20 sm:py-28">
+  <section
+    id="nosotros"
+    class="relative bg-gradient-to-br from-cyan-50/40 via-blue-50/30 to-slate-50 py-20 sm:py-28"
+  >
     <div class="mx-auto max-w-6xl px-6">
       <div class="grid gap-12 lg:grid-cols-2 lg:items-center">
         <!-- Texto -->
@@ -61,7 +64,9 @@
             <div
               class="absolute -inset-4 rounded-3xl bg-gradient-to-br from-cyan-200/30 to-blue-300/20 blur-2xl"
             ></div>
-            <div class="relative rounded-2xl border border-slate-200 bg-white p-8 shadow-sm">
+            <div
+              class="relative rounded-2xl border border-blue-100/80 bg-white/70 backdrop-blur-sm p-8 shadow-sm"
+            >
               <div class="flex items-center gap-4 mb-6">
                 <div
                   class="flex h-14 w-14 items-center justify-center rounded-xl bg-gradient-to-br from-navy-800 to-blue-700"

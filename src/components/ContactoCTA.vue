@@ -1,14 +1,17 @@
 <template>
-  <section id="contacto" class="bg-white py-20 sm:py-28">
+  <section
+    id="contacto"
+    class="relative bg-gradient-to-b from-blue-50/30 via-white to-blue-50/40 py-20 sm:py-28"
+  >
     <div class="mx-auto max-w-4xl px-6">
       <div
-        class="relative rounded-3xl border border-slate-200 bg-gradient-to-br from-slate-50 to-white p-10 sm:p-16 text-center overflow-hidden"
+        class="relative rounded-3xl border border-blue-100/80 bg-gradient-to-br from-white/80 via-blue-50/30 to-cyan-50/20 backdrop-blur-sm p-10 sm:p-16 text-center overflow-hidden shadow-sm"
       >
         <div
-          class="absolute -top-20 -right-20 h-60 w-60 rounded-full bg-cyan-200/20 blur-3xl"
+          class="absolute -top-20 -right-20 h-60 w-60 rounded-full bg-cyan-200/25 blur-3xl"
         ></div>
         <div
-          class="absolute -bottom-16 -left-16 h-48 w-48 rounded-full bg-blue-200/20 blur-3xl"
+          class="absolute -bottom-16 -left-16 h-48 w-48 rounded-full bg-blue-200/25 blur-3xl"
         ></div>
 
         <div class="relative">
@@ -28,7 +31,7 @@
               href="https://wa.me/59891854199?text=Hola%2C%20quiero%20consultar%20por%20un%20proyecto."
               target="_blank"
               rel="noopener noreferrer"
-              class="inline-flex items-center gap-2 rounded-lg bg-gradient-to-r from-navy-800 to-blue-700 px-10 py-4 text-lg font-semibold text-white shadow-lg shadow-navy-800/20 transition hover:shadow-navy-800/40 hover:brightness-110"
+              class="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-navy-800 to-blue-600 px-10 py-4 text-lg font-semibold text-white shadow-lg shadow-blue-500/20 transition-all duration-300 hover:shadow-xl hover:shadow-blue-500/30 hover:scale-[1.02]"
             >
               <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
                 <path
@@ -39,7 +42,7 @@
             </a>
             <a
               href="mailto:rodolfogroero2@gmail.com"
-              class="inline-flex items-center gap-2 rounded-lg border border-slate-300 px-10 py-4 text-lg font-semibold text-navy-800 transition hover:border-blue-500 hover:text-blue-600"
+              class="inline-flex items-center gap-2 rounded-xl border border-blue-200 bg-white/60 backdrop-blur-sm px-10 py-4 text-lg font-semibold text-navy-800 transition-all duration-300 hover:border-blue-400 hover:text-blue-600 hover:bg-blue-50/50"
             >
               <svg
                 class="h-5 w-5"

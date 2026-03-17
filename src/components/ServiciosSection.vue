@@ -37,7 +37,10 @@ const servicios = [
 </script>
 
 <template>
-  <section id="servicios" class="bg-white py-20 sm:py-28">
+  <section
+    id="servicios"
+    class="relative bg-gradient-to-b from-blue-50/50 via-white to-blue-50/30 py-20 sm:py-28"
+  >
     <div class="mx-auto max-w-6xl px-6">
       <p class="text-center text-sm font-semibold uppercase tracking-widest text-blue-600 mb-3">
         Qué hacemos
@@ -53,7 +56,7 @@ const servicios = [
         <div
           v-for="(s, i) in servicios"
           :key="i"
-          class="group rounded-2xl border border-slate-200 bg-slate-50 p-8 transition hover:border-blue-400/60 hover:shadow-lg hover:shadow-blue-400/10"
+          class="group rounded-2xl border border-blue-100/80 bg-white/70 backdrop-blur-sm p-8 transition-all duration-300 hover:border-blue-300/80 hover:shadow-lg hover:shadow-blue-400/10 hover:-translate-y-1"
         >
           <div
             class="mb-5 flex h-12 w-12 items-center justify-center rounded-lg"
